@@ -1,0 +1,30 @@
+ai-threat-analyst-bot/
+│
+├── backend/
+│   ├── app.py
+│   ├── config.py
+│   ├── requirements.txt
+│   └── engine/
+│       ├── analyzer.py
+│       ├── report_gen.py
+│       ├── splunk_ingest.py
+│       ├── elk_ingest.py
+│       ├── email_alert.py
+│       └── alerts.py
+│
+├── frontend/                   ← React UI
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│       ├── index.js
+│       ├── App.js
+│       └── components/
+│           ├── LogUploader.js
+│           ├── AnalyzeButton.js
+│           ├── AnomaliesTable.js
+│           ├── ReportViewer.js
+│           └── SIEMFetcher.js
+│
+├── .gitignore
+├── README.md
+└── LICENSE
