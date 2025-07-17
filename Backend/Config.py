@@ -1,0 +1,9 @@
+OPENAI_API_KEY = "your_openai_api_key"
+MODEL_NAME = "gpt-4"
+SLACK_TOKEN = "xoxb-..."
+SLACK_CHANNEL = "#alerts"
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+EMAIL_SENDER = "you@gmail.com"
+EMAIL_PASSWORD = "app_password"
+EMAIL_RECIPIENTS = ["sec1@example.com", "sec2@example.com"]
